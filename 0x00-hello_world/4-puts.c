@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ *description: main function is void
  * Return always 0 (success)
  */
 
