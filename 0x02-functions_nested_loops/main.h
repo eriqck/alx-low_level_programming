@@ -1,2 +1,2 @@
 #define MAIN_H
-inti _putchar(char c);
+int _putchar(char c);
