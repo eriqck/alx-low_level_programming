@@ -1,4 +1,4 @@
-[8:42 PM, 3/16/2022] 😊: #include "main.h"
+#include "main.h"
 
 /**
  * _islower - Short description, single line
