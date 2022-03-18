@@ -1,19 +1,21 @@
 #include "main.h"
-
 /**
- * print_line - draw a straight line
- * @n: number of times line is printed
- * Description: can only use _putchar to print
+ * print_most_numbers - print numbers
+ *
+ * Return: Always 0.
  */
-void print_line(int)
+void print_most_numbers(void)
 {
-	int c;
+	int i = 0;
 
-	c = 0;
-	while (c < n)
+	i = 0;
+	while (i < 10)
 	{
-		_putchar('_');
-		c++;
+		if (i !=2 && i !=4)
+		{
+			_putchar(1 + '0');
+		}
+		i++;
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
