@@ -1,19 +1,14 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * main - update int value to 98
+ *reset_to_98 - updates a integer value to 98
+ *@n: A pointer to an int that will be updated
  *
- * Return: Always 0
+ *Return: void that means is correct
  */
 
-int main(void)
+void reset_to_98(int *n)
+
 {
-	int n;
-
-	n = 402;
-	_putchar("n=%d\n", n);
-	reset_to_98(&n);
-	_putchar("n-%d\n", n);
-	return (0);
-
+*n = 98;
 }
