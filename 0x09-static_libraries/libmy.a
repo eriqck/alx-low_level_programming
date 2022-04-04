@@ -1,3 +1,4 @@
+#include "main.h"
 putchar(0);
 islower();
 isalpha();
