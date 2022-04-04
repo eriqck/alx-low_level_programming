@@ -9,9 +9,8 @@
  *
  * Return: Always 0
  */
-int (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	(void) argv;
-	printf("%i\n", argc - 1);
+	printf("%d\n", argc);
 	return (0);
 }
