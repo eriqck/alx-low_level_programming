@@ -1,0 +1,21 @@
+#include "main.h"
+putchar(0);
+islower();
+isalpha();
+(int n);
+isupper();
+isdigit();
+strlen();
+puts();
+strcpy();
+atoi();
+strcat();
+strncat();
+strncpy();
+strcmp();
+memset();
+memcpy();
+strchr();
+strspn();
+strpbrk();
+strstr();
